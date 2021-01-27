@@ -1,7 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import './layouts/css/all.min.css';
+import './layouts/css/bootstrap.min.css';
+import './layouts/css/magnific-popup.css';
+import './layouts/css/templatemo-dream-pulse.css';
+import './layouts/slick/slick.css';
+import './layouts/slick/slick-theme.css';
+import App from './components/main';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
