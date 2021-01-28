@@ -1,4 +1,5 @@
 import React from 'react';
+import imgHeader from '../layouts/img/dream-pulse-header.jpg'
 
 class Intro extends React.Component {
   render() {
@@ -7,7 +8,7 @@ class Intro extends React.Component {
         <div
           className="parallax-window"
           data-parallax="scroll"
-          data-image-src="img/dream-pulse-header.jpg">
+          data-image-src={imgHeader}>
           <div className="tm-section-wrap">
             <section id="intro" className="tm-section">
               <div className="tm-bg-white-transparent tm-intro">
