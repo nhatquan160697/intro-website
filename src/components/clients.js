@@ -1,4 +1,7 @@
 import React from 'react';
+import client01 from '../layouts/img/client-1.png'
+import client02 from '../layouts/img/client-2.png'
+import client03 from '../layouts/img/client-3.png'
 
 class Clients extends React.Component {
   render() {
@@ -20,17 +23,17 @@ class Clients extends React.Component {
               <div className="row tm-clients-images">
                 <div className="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
                   <a href="https://google.com">
-                    <img src="img/client-1.png" alt="" className="img-fluid tm-client-img" />
+                    <img src={client01} alt="" className="img-fluid tm-client-img" />
                   </a>
                 </div>
                 <div className="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
                   <a href="https://facebook.com">
-                    <img src="img/client-2.png" alt="" className="img-fluid tm-client-img" />
+                    <img src={client02}  alt="" className="img-fluid tm-client-img" />
                   </a>
                 </div>
                 <div className="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
                   <a href="https://twitter.com">
-                    <img src="img/client-3.png" alt="" className="img-fluid tm-client-img" />
+                    <img src={client03}  alt="" className="img-fluid tm-client-img" />
                   </a>
                 </div>
                 <div className="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">

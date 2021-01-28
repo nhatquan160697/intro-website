@@ -1,4 +1,5 @@
 import React from 'react';
+import gallery01 from '../layouts/img/gallery/01.jpg'
 
 class Work extends React.Component {
   render() {
@@ -13,7 +14,7 @@ class Work extends React.Component {
                   <div className="tm-gallery">
                     <div className="tm-gallery-item">
                       <figure className="effect-bubba">
-                        <img src="img/gallery/01.jpg" alt="" className="img-fluid" />
+                        <img src={gallery01} alt="" className="img-fluid" />
                         <figcaption>
                           <h2>Fresh <span>Bubba</span></h2>
                           <p>Bubba likes to appear out of thin air.</p>
